@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: rgb(255, 242, 201);
+}
+
+a {
+	text-decoration: none;
+	font-size: 1rem;
+    padding: 1.5rem;
+    color: white;
+}
+
+a:hover, .isTriBtn:hover, .quizBtn:hover, .HypBtn:hover , .areaBtn:hover{
+    background-color: black;
+    background-blend-mode: overlay;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+nav{
+	background-color: rgb(103, 50, 250);
+	padding: 1.5rem;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 75vh;
+    width: 100vw;
+
+}
+
+.angleInput, .sideInput{
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+    width: 20vw;
+}
+
+.angleInput:focus{
+    outline: none;
+}
+
+.isTriBtn, .quizBtn, .HypBtn, .areaBtn{
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: white;
+    border: none;
+    background-color: rgb(103, 50, 250);
+    width: 10vw;
+    min-height: 7vh;
+    border-radius: 3px;
+}
+
+.HypBtn, .areaBtn{
+    width: 18vw;
+
+}
+
+.item-active {
+	border-bottom: 3px solid rgb(103, 50, 250);
+	font-weight: bold;
+}
+
+.quizBox{
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 2rem;
+    min-width:50vw;
+    margin-bottom: 2rem;
+}
+
+.quizQ{
+    margin-bottom: 2rem;
+}
+
+.quizBtn{
+    width: 10rem;
+    margin-left: 22vw;
+}
+
+input{
+    margin: 0rem 1rem;
+}
+
